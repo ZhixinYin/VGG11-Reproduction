@@ -39,6 +39,8 @@ tiny-imagenet-200 is used as the dataset in this reproduction. Validation set is
 | Training accuracy | 98.89% |
 | Test accuracy     | 42.88% |
 
+![](image/TrainingAccuracy.png)
+
 The difference between training accuracy and
 test accuracy is expected, as the training examples are few compared to the number of parameters in VGG11, which helps VGG11 memorise the training data set, instead of finding the patterns. For reducing overfitting in the future, some preprocessing techniques like PCA, crop, horizontal flipping and so on should be utilised.
 
