@@ -40,7 +40,7 @@ tiny-imagenet-200 is used as the dataset in this reproduction. Validation set is
 | Test accuracy     | 42.88% |
 
 The difference between training accuracy and
-test accuracy is expected, as the training examples are few compared to the number of parameters in VGG11, which helps CNN memorise the training data set, instead of finding the patterns. For reducing overfitting in the future, some preprocessing techniques like PCA, crop, horizontal flipping and so on should be utilised.
+test accuracy is expected, as the training examples are few compared to the number of parameters in VGG11, which helps VGG11 memorise the training data set, instead of finding the patterns. For reducing overfitting in the future, some preprocessing techniques like PCA, crop, horizontal flipping and so on should be utilised.
 
 ## References
 Simonyan, K., & Zisserman, A. (2015). Very deep convolutional networks for large-scale image recognition. International Conference on Learning Representations (ICLR). https://arxiv.org/abs/1409.1556
