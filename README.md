@@ -49,8 +49,6 @@ test accuracy is expected, as the training examples are few compared to the numb
 ## References
 Simonyan, K., & Zisserman, A. (2015). Very deep convolutional networks for large-scale image recognition. International Conference on Learning Representations (ICLR). https://arxiv.org/abs/1409.1556
 
-Tiny ImageNet Dataset
-Wu, J., Zhang, J., Xie, Y., & others. (2017).
-Tiny ImageNet Visual Recognition Challenge.
-Stanford University.
-https://tiny-imagenet.herokuapp.com/
+Tiny ImageNet dataset — 200-class subset of ImageNet used in CS231n.
+Official download (includes training/validation/test):
+http://cs231n.stanford.edu/tiny-imagenet-200.zip
